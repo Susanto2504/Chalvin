@@ -1961,3 +1961,445 @@ body {
 }
 
 }
+
+
+@media only screen and (max-width: 382px) {
+    /*--------> Untuk Home <--------- */
+    .home-container {
+    /* padding: 150px 80px; */
+    height: 212px;
+    background-image: url('img/ca8e8f40283e71873d350c5c00fe3066.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.isiutama {
+    padding: 80px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gambar img {
+    width: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.headline {
+    padding-top: 10px;
+    margin-bottom: 840px;
+}
+
+.headline p {
+    font-family: "Pacifico", sans-serif;
+    font-size: 8px;
+}
+
+.headline p span {
+    background-color: #ec6f1c;
+}
+
+.headline h3 {
+    font-size: 16px;
+    margin-right: 40px;
+}
+
+.button-container {
+    margin-top: -1000px;
+    display: flex;
+    gap: 5px;
+    padding-top: 82px;
+    padding-left: 49px;
+}
+
+.tab-button {
+    position: relative;
+    z-index: 3;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-family: "poppins", sans-serif;
+    font-size: 3px;
+    font-weight: 800;
+}
+
+.tab-button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.tab-button.active {
+    background-color: black;
+    color: white;
+}
+
+.content-section {
+    position: relative;
+    z-index: 2;
+    display: none;
+    width: 100%;
+    height: 300px;
+    max-width: 1600px;
+    margin-top: -40px;
+    padding: 40px;
+    background-color: #28a745;
+    border-radius: 40px;
+    box-sizing: border-box
+}
+
+.content-section.active {
+    display: block;
+}
+
+/* BAGIAN ABOUT */
+.container-about {
+    /* background-color: #ec6f1c; */
+    position: relative;
+    padding: 70px 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    gap: 10px;
+    background-image: url('img/71508619c1923a8ed1d8341464729908.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-about .gambar img {
+    width: 150px;
+}
+
+.tulisan-about{
+    margin-top: 50px;
+    align-content: center;
+    display: flex;
+    flex-flow: column;
+    gap: 0px;
+}
+
+.tulisan-about p {
+    text-align: justify;
+    font-size: 4px;
+    font-weight: 100;
+    color: white;
+}
+
+.tulisan-about .kelasinformasi {
+    display: flex;
+    gap: 5px;
+    margin-top: -5px;
+}
+
+.tulisan-about .kelasinformasi a {
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+    transform: scale(1);
+    transition: .5s ease-in-out;
+}
+
+.tulisan-about .kelasinformasi a:hover {
+    transform: scale(1.5);
+}
+
+.tulisan-about .kelasinformasi a i {
+   font-size: 7px;
+   color: #ffffff;
+}
+
+.tulisan-about .kelasinformasi a i:hover {
+    color: #ec6f1c;
+}
+
+/*-------------------- Bagian Service ---------------------------------*/
+.container-service {
+    position: relative;
+    z-index: 1;
+    background-image: url('img/ca8e8f40283e71873d350c5c00fe3066.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-bottom: 50px; */
+}
+
+.isiutama-contentnya {
+    box-sizing: border-box;
+    padding: 80px 25px;
+    margin-bottom: -80px;
+    position: relative;
+}
+
+.judul {
+    justify-items: center;
+    font-size: 10px;
+}
+
+.kotak-bagian {
+    display: flex;
+    justify-content: center;
+    background-color: #00000025;
+    gap: 50px;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+
+.isikotak {
+    background-color: rgb(255, 255, 255);
+    width: 161px;
+    justify-items: center;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    box-shadow: 3px 1px 20px  rgba(0, 0, 0, 0.329);
+}
+
+.isikotak .gambarkotak img {
+    width: 60px;
+}
+
+.tulisankotak {
+    margin-top: 5px;
+    font-size: 7px;
+    color: #ec6f1c;
+}
+
+/* -------------------BAGIAN PORTOFOLIO---------------------- */
+.container-portofolio {
+    position: relative;
+    z-index: 1;
+    padding-top: 80px;
+    /* margin-bottom: 30px; */
+}
+
+.judulportofolio {
+    justify-items: center;
+    font-size: 10px;
+}
+
+.btnportofolio {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 21px;
+}
+
+.btnporto {
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+    background: none;
+    border: 1px solid #ec6f1c;
+    background-color: #ec6f1c00;
+    border-radius: 10px ;
+    color: #000000;
+    font-size: 8px;
+    font-family: 'Acme', sans-serif;
+    cursor: pointer;
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.btnporto:hover {
+    background-color: #ec6f1c;
+    color: white;
+    border: none;
+    transform: scale(1.2);
+    transition: .3s ease-in-out;
+}
+
+.btnporto.aktif {
+    background-color: #ec6f1c;
+    color: white;
+    border: none;
+    transform: scale(1.2);
+}
+
+/* ISI PORTOFOLIO 1 */
+.isiportofolio{
+    position: relative;
+    margin-top: -100px;
+    background-color: #ec6f1c;
+    height: 550px;
+    width: 100%;
+    color: #e7e7e7;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    padding: 50px 150px;
+    justify-content: space-between;
+    gap: 40px;
+    width: 100%;
+    overflow-x: auto;
+    box-sizing: border-box;
+    padding: 30px 0px;
+    display: none;
+}
+
+.isiportofolio.aktif {
+    display: block;
+}
+
+
+
+/* .photography{
+    background-color: #ffffff;
+    width: 200px;
+    border-radius: 20px;
+} */
+
+.photography img {
+    width: 250px;
+    height: 320px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.informasi-foto {
+    justify-items: center;
+}
+
+.photography {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+
+/* ----------BAGIAN CONTACT --------- */
+.container-contact {
+    position: relative;
+    height: 490px;
+    padding: 120px 5px;
+    background-image: url('img/71508619c1923a8ed1d8341464729908.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.judulcontact {
+    justify-items: center;
+    font-size: 10px;
+    color: #e7e7e7;
+}
+
+
+.isinyacontact {
+    padding: 25px 90px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.sisikiri input {
+    padding: 5px 10px;
+    margin: -2px;
+    width: 100px;
+    font-family: 'acme', sans-serif;
+    border: 2px solid rgba(0, 0, 0, 0.055) ;
+    font-weight: 300;
+    font-size: 5px;
+    border-radius: 5px;
+}
+
+.sisikiri textarea {
+    padding: 5px 10px;
+    font-size: 5px;
+    width: 100px;
+    margin: 3px;
+    margin-left: -1.7px;
+    font-family: 'acme', sans-serif;
+    font-weight: 300;
+    border: 2px solid rgba(0, 0, 0, 0.055);
+    border-radius: 5px;
+    margin-bottom: -8px;
+}
+
+.sisikiri button {
+    width: 100%;
+    padding: 5px;
+    margin-left: -1.9px;
+    font-size: 5px;
+    border: none;
+    margin-top: -100px;
+    background: #ec6f1c;
+    border-radius: 5px;
+}
+
+
+.sisikanan .informasi-kota {
+    display: flex;
+    gap: 2px;
+    padding-bottom: 15px;
+}
+
+.informasi-kota i {
+    align-content: center;
+    font-size: 10px;
+    color: #ec6f1c;
+}
+
+.sisikanan .informasi-telepon {
+    display: flex;
+    gap: 2px;
+    padding-bottom: 15px;
+}
+
+.informasi-telepon i {
+    align-content: center;
+    font-size: 10px;
+    color: #ec6f1c;
+}
+
+.sisikanan .informasi-email{
+    display: flex;
+    gap: 2px;
+}
+
+.informasi-email i {
+    align-content: center;
+    font-size: 10px;
+    color: #ec6f1c;
+}
+
+.isi-kata h1 {
+    font-size: 5px;
+    color: #e7e7e7;
+    font-weight: 550;
+}
+
+.isi-kata p {
+    font-size: 2px;
+    color: #e7e7e7;
+}
+
+/* -------------Bagian Footer------------ */
+
+.penutup {
+    margin-top: 25px;
+    justify-items: center;
+    border-top: 1px solid white;
+}
+
+
+.copyright {
+    color: #e7e7e7;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.elemenkontak{
+    display: flex;
+    gap: 10px;
+}
+
+.elemenkontak a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ec6f1c;
+}
+
+}
