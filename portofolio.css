@@ -1261,7 +1261,7 @@ body {
 .sisikiri input {
     padding: 5px 20px;
     margin: 2px;
-    width: 350px;
+    width: 270px;
     font-family: 'acme', sans-serif;
     font-size: 12px;
     border: 2px solid rgba(0, 0, 0, 0.055) ;
@@ -1271,7 +1271,7 @@ body {
 
 .sisikiri textarea {
     padding: 5px 20px;
-    width: 350px;
+    width: 270px;
     margin: 2px;
     font-family: 'acme', sans-serif;
     font-weight: 300;
