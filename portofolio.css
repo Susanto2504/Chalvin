@@ -1200,7 +1200,7 @@ body {
 .photography{
     /* justify-items: center; */
     /* background-color: white; */
-    width: 100%;
+    width: 110%;
     padding: 10px 2px;
     border-radius: 0px;
     overflow-y: auto;
@@ -1208,7 +1208,7 @@ body {
     /* padding-bottom: -100px; */
     scrollbar-width: none;
     display: flex;
-    gap: 5px;
+    gap: 50px;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: -15px;
@@ -1232,8 +1232,8 @@ body {
 /* ----------BAGIAN CONTACT --------- */
 .container-contact {
     position: relative;
-    height: 760px;
-    padding: 90px 20px;
+    height: 810px;
+    padding: 140px 20px;
     background-image: url('img/71508619c1923a8ed1d8341464729908.jpg');
     background-repeat: no-repeat;
     background-size: cover;
