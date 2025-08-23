@@ -566,6 +566,7 @@ body {
     font-weight: 300;
     border: 2px solid rgba(0, 0, 0, 0.055);
     border-radius: 10px;
+    resize: none;
 }
 
 .sisikiri button {
@@ -1277,6 +1278,7 @@ body {
     border: 2px solid rgba(0, 0, 0, 0.055);
     border-radius: 10px;
     font-size: 12px;
+    resize: none;
 }
 
 .sisikiri button {

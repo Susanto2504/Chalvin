@@ -148,3 +148,9 @@ sertifikasi.addEventListener('wheel', (cursor) => {
     // Menggeser galeri secara horizontal
     sertifikasi.scrollLeft += cursor.deltaY;
 });
+
+window.onbeforeunload = () => {
+    for (const form of document.getElementsByTagName("form")) {
+        form.reset();
+    }
+};
